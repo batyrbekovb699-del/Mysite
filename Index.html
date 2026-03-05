@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoKG | Premium Service</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="catalog.css">
+    <link rel="stylesheet" href="animations.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">AUTO<span>KG</span></div>
+        <div class="nav-links">
+            <a href="#catalog">Каталог</a>
+            <a href="#register" class="btn-reg">Регистрация</a>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Премиальные авто в Кыргызстане</h1>
+            <p>Бишкек • Ош • Нарын • Иссык-Куль</p>
+            <div class="hero-btns">
+                <button onclick="location.href='#catalog'">Смотреть авто</button>
+                <button onclick="location.href='#contacts'">Контакты</button>
+            </div>
+        </div>
+    </header>
+
+    <section class="cities">
+        <button>Бишкек</button><button>Ош</button><button>Нарын</button>
+        <button>Баткен</button><button>Талас</button><button>Чуй</button>
+        <button>Ысык-Көл</button>
+    </section>
+
+    <section id="catalog" class="catalog">
+        <div class="car-card">
+            <div class="car-img" style="background-image: url('https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=500');"></div>
+            <div class="car-info">
+                <h3>Porsche 911 Turbo</h3>
+                <p class="price">$120,000</p>
+                <button class="btn-select">Выбрать</button>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contacts">
+        <a href="https://wa.me/996552600311" class="wa-link">Написать в WhatsApp</a>
+    </footer>
+
+</body>
+</html>
