@@ -1,0 +1,11 @@
+.navbar {
+    display: flex; justify-content: space-between; align-items: center;
+    padding: 20px; position: sticky; top: 0; z-index: 1000;
+    background: rgba(15, 23, 42, 0.8); backdrop-filter: blur(10px);
+}
+.logo { font-weight: 800; font-size: 1.5rem; letter-spacing: -1px; }
+.logo span { color: #3b82f6; }
+.btn-reg {
+    background: #3b82f6; color: white; text-decoration: none;
+    padding: 8px 20px; border-radius: 8px; font-weight: bold;
+}
