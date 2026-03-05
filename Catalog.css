@@ -1,0 +1,15 @@
+.catalog {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px; padding: 20px;
+}
+.car-card {
+    background: #1e293b; border-radius: 20px; overflow: hidden;
+    transition: transform 0.3s ease;
+}
+.car-img { height: 200px; background-size: cover; background-position: center; }
+.car-info { padding: 20px; }
+.price { color: #3b82f6; font-size: 1.2rem; font-weight: bold; margin: 10px 0; }
+.btn-select {
+    width: 100%; border: none; background: white; color: black;
+    padding: 12px; border-radius: 10px; font-weight: bold; cursor: pointer;
+}
